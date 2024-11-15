@@ -130,7 +130,7 @@ fun Navigation(
         startDestination = Screen.DrawerScreen.Account.route,
         modifier = Modifier.padding(pd) ){
         composable(Screen.DrawerScreen.Subscription.route){
-
+            SubscriptionView()
         }
         composable(Screen.DrawerScreen.Account.route){
             AccountView()
