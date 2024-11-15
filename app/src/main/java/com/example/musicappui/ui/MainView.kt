@@ -169,7 +169,7 @@ fun Navigation(
             SubscriptionView()
         }
         composable(Screen.BottomScreen.Browser.bRoute){
-            SubscriptionView()
+            BrowseView()
         }
     }
 }
